@@ -1,9 +1,9 @@
-public class karyawan {
+public class Karyawan {
     int nik;
     String namaLengkap;
     int gajiPokok;
 
-    public karyawan (int nik, String namaLengkap, int gajiPokok) {
+    public Karyawan(int nik, String namaLengkap, int gajiPokok) {
         this.nik = nik;
         this.namaLengkap = namaLengkap;
         this.gajiPokok = gajiPokok;

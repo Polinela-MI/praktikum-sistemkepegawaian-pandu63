@@ -6,7 +6,7 @@ public class Main {
             int nik = Integer.parseInt(args[i]);
             int gajiPokok = Integer.parseInt(args[i+2]);
 
-            karyawan k = new karyawan(nik, args[i+1], gajiPokok);
+            Karyawan k = new Karyawan(nik, args[i+1], gajiPokok);
 
             System.out.print(k.getNik() + "_" + k.getNamaLengkap());
             k.hitungGaji();
